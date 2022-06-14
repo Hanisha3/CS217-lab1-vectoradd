@@ -1,0 +1,17 @@
+Lab1 - Vectoradd 
+
+Name - Hanisha Sree Sangam
+SID  - 862191473
+
+
+1) How many total thread blocks do we use?
+
+Answer : 4 thread blocks
+
+2) Are all thread blocks full? That is, do all threads in the thread block have data to operate on?
+
+Answer : The first three blocks shoud be full, I guess the one of the thread block is not fully used. Since 256 * 3 = 768 then difference of 232. 
+
+3) How can this basic vector add program be improved? (What changes do you thinkcan be made to speed up the code?)
+
+Answer : I think there are very few cases possible to improve the program.We cantry changing memory, avoiding to copy memory from CPU to GPU (expensive).
